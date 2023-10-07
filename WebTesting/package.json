@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "mocha --no-timeouts *.test.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.13.0"
+  }
+}

@@ -1,0 +1,18 @@
+# REQUIREMENT MINI PROJECT
++ Jenis Mini Project:
+  - API Testing pakai Mocha + Chai + Supertest / Axios
+  - Web Testing pakai Selenium
+  - Mobile Testing pakai Appium
+  - Perfomance Testing pakai K6
++ Silahkan cari website KECIL yang akan digunakan untuk Web Testing + Perfomance Testing + API Testing (jika memungkinkan)
++ Silahkan cari Mobile App KECIL yang akan digunakan untuk Mobile Testing
++ Web dan Aplikasi Mobile nya tidak harus aplikasi beneran, boleh yang memang khusus testing atau dummy app
++ Jika website yang ditemukan tidak menggunakan API, atau API nya susah dipakai, maka cari penyedia API gratisan
++ Parameter penyedia API yang bagus adalah API yang ada CRUDnya, dan Autentikasinya jika ada
++ Jika sudah ketemu website atau mobile app nya, silahkan kumpulkan ke grup di telegram
++ tidak boleh ada yang sama
++ Semua fitur yang ada pada website dan mobile app tersebut, harus ditest
+  - Jenis test yang dilakukan minimal 2 jenis, yaitu functional testing, dan e2e testing
++ Tidak usah buat test case manualnya
++ Perfomance test yang diutamakan untuk ditest adalah bagian webnya
++ Minimal ada 1 jenis mini project yang dikumpulkan malam ini
