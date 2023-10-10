@@ -10,9 +10,9 @@ export default function () {
     const responses = http.batch(harDetailProduct);
     for (const res of responses) {
       pageDuration.add(res.timings.duration);
-      // check(res, {
-      //   "status 200": (res) => res.status === 200,
-      // });
+      check(res, {
+        "status 200": (res) => res.status === 200,
+      });
     }
   });
 }

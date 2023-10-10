@@ -5,10 +5,12 @@ import newArrival from "./browser-test/02_NewArrival_berry.browser.test.js";
 import detailProduct from "./browser-test/03_DetailProduct_berry.browser.test.js";
 import aboutDashboard from "./browser-test/04_About_berry.browser.test.js";
 
-import dashboardProt from "./protocols/01_Dashboard.protocol.test.js";
-import detailProductProt from "./protocols/02_DetailProduct.protocol.test.js";
-import aboutProt from "./protocols/04_About.protocol.test.js";
-import newArrivalProt from "./protocols/03_NewArrival.protocol.test.js";
+import dashboardProt from "./protocols-test/01_Dashboard.protocol.test.js";
+import detailProductProt from "./protocols-test/02_DetailProduct.protocol.test.js";
+import aboutProt from "./protocols-test/04_About.protocol.test.js";
+import newArrivalProt from "./protocols-test/03_NewArrival.protocol.test.js";
+
+//? k6 run --out cloud .\main.js
 
 export const options = {
   scenarios: {

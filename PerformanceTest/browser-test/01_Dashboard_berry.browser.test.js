@@ -6,9 +6,9 @@ export default async function (page) {
   page.screenshot({ path: "screenshots/01_dashboard.png" });
 
   // console.log(page.locator(".header-down .header-mid")),
-  // check(page, {
-  //   "user dapat menekan logo beranda": (p) =>
-  //     p.locator(".header-down .header-mid"),
-  // });
+  check(page, {
+    "user dapat menekan logo beranda": (p) =>
+      p.locator(".header-down .header-mid"),
+  });
   sleep(4);
 }
